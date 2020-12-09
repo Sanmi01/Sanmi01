@@ -63,7 +63,7 @@ main {
      padding: 4em;
 
      .intro {
-        max-width: 37rem;
+         width: 70%;
         margin: 0px auto;
         display: flex;
         justify-content: center;
@@ -164,10 +164,6 @@ img {
 
     ul:nth-child(2) {
         display: block;
-        
-        li {
-            min-width: 130px;
-        }
     }
     ul {
         display: flex;
