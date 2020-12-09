@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+$first-color: #124d8b;
+$second-color: #FFE2D2;
+$third-color: #d8c9c9;
+$fourth-color: skyblue;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', arial;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: $first-color;
+    padding: 2em;
+
+    .logo {
+        font-weight: bold;
+    }
+
+        ul {
+            display: flex;
+
+            a {
+                display: block;
+                padding: 0 1em;
+            }
+        }
+
+    a {
+        color: $second-color;
+    }
+}
+
+main {
+    background-color: $fourth-color;
+}
+
+#home {
+     display: grid;
+     grid-template-columns: 70% 30%;
+     margin-bottom: 50px;
+     padding: 4em;
+
+     .intro {
+        max-width: 37rem;
+        margin: 0px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+
+     .intro-img {
+        filter: grayscale(100%) opacity(100%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+
+        img {
+            border-radius: 50%;
+            width: 90%;
+        }
+     }
+}
+
+#skills {
+    text-align: center;
+}
+
+.skillsbox {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    width: 100%;
+    height: 100%;
+    
+    i {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #021255;
+        border-radius: 7px 7px 3px 3px;
+        color: rgb(15, 121, 156);
+
+    }
+
+    .icon-name {
+    background-color: #2D2E32;
+    width: 100%;
+    border-radius: 0 0 7px 7px;
+    z-index: -1;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    }
+
+    li {
+        list-style: none;
+        position: relative;
+    width: 6rem;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 10px 2px;
+    margin: 2.3rem 1.5rem;
+    
+    }
+}
+
+img {
+    width: 100%;				/* width of image (px or % or auto) */
+    height: 450px;
+    border-radius: 15px;
+}
+
+#projects .first {
+    text-align: center;
+}
+
+#projects {
+    background-color: rgba(8, 34, 179, 0.667);
+    padding: 4em;
+}
+
+
+.project {
+    width: 65%;
+    margin: 25px;
+}
+
+.right-project {
+    position: relative;
+    text-align: end;
+    margin-left: 25%;
+
+}
+
+.project-description2 > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    ul:nth-child(2) {
+        display: block;
+        
+        li {
+            min-width: 130px;
+        }
+    }
+    ul {
+        display: flex;
+    flex-direction: row;
+
+    li {
+        padding: 5px;
+        margin: 2px;
+        border-radius: 10px;
+        background-color: red;
+        height: fit-content;
+
+        i {
+            padding: 0 2px;
+        }
+    }
+    }
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    padding: 0 2rem;
+    background-color: dimgrey;
+  }
+  
+  .contact-section-header > h2 {
+    font-size: 3rem !important;
+  }
+  
+  .contact-section-header > p {
+    font-style: italic;
+    font-size: 1.5rem;
+  }
+  
+  .contact-details {
+    color: white !important;
+    font-size: 1.5rem !important;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transition: transform 0.3s ease-out;
+  }
+  
+  .contact-links a:hover {
+    color: black !important;
+  }
+  
+
+@media (max-width: 800px) {
+    body {
+        .skillsbox {
+            display: grid;
+            grid-template-columns: 20% 20% 20% 20%;
+            gap: 1rem;
+
+           
+        }
+    }
+
+    #home {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+
+
+    .right-project {
+        position: relative;
+        text-align: start;
+        margin: auto;
+    
+    }
+    .project {
+    width: 100%;
+    margin-right: 0;
+}
+}
+
+a:hover {
+    color: $second-color;
+    text-decoration: none;
+}
