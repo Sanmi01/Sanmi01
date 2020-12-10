@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
-$first-color: #17171d;;
+$first-color: #141414;;
 $second-color: #ffffff;
 $third-color: #d8c9c9;
 $fourth-color: #17171d;;
@@ -44,6 +44,10 @@ nav {
         ul {
             display: flex;
 
+            li {
+                padding-right: 20px;
+            }
+
             a {
                 display: block;
                 padding: 0 1em;
@@ -52,6 +56,16 @@ nav {
 
     a {
         color: $second-color;
+         
+        span {
+            
+
+            span{
+                font-size: 2.5rem;
+                color: #50b750;
+            }
+            
+        }
     }
 }
 
@@ -73,6 +87,7 @@ main {
         display: flex;
         justify-content: center;
         align-items: center;
+        font-size: 1.3rem;
      }
 
      .intro-img {
@@ -88,6 +103,11 @@ main {
         }
      }
 }
+
+h2 {
+    font-size: 3.5rem;
+}
+
 
 #skills {
     text-align: center;
@@ -106,9 +126,9 @@ main {
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #021255;
+        background-color: #000000;
         border-radius: 7px 7px 3px 3px;
-        color: rgb(15, 121, 156);
+        color: #50b750;
 
     }
 
@@ -145,22 +165,23 @@ img {
 }
 
 #projects {
-    background-color:#fcf3dc;
+    background-color: #141414;
     padding: 4em;
 
     h3 {
-        color: #de4623;
+        color: #50b750;
         font-size: 2.5rem
     }
 
     p, small {
-        color: #17171d;
+        color: #ffff;
     }
 }
 
 
 .project {
     max-width: 65%;
+    margin: 15px 15px;
 }
 
 .right-project {
@@ -186,7 +207,7 @@ img {
         padding: 5px;
         margin: 2px;
         border-radius: 10px;
-        background-color:#de4623;
+        background-color:#50b750;
         color: white;
         height: fit-content;
 
@@ -226,7 +247,7 @@ img {
   }
   
   .contact-links a:hover {
-    color: black !important;
+    color: #50b750 !important;
   }
   
 
@@ -246,10 +267,6 @@ img {
         grid-template-columns: 100%;
     }
 
-    .contact-section {
-        height: 45vh;
-    }
-
     .right-project {
         position: relative;
         text-align: start;
@@ -263,6 +280,6 @@ img {
 }
 
 a:hover {
-    color: $second-color;
+    color: #50b750;
     text-decoration: none;
 }
