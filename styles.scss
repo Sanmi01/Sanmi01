@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
-$first-color: #c1c8e2;
-$second-color: #af1409;
+$first-color: #17171d;;
+$second-color: #ffffff;
 $third-color: #d8c9c9;
-$fourth-color: #f1f1f1;
+$fourth-color: #17171d;;
 
 * {
     margin: 0;
@@ -58,6 +58,7 @@ nav {
 
 main {
     background-color: $fourth-color;
+    color: white;
 }
 
 #home {
@@ -144,8 +145,17 @@ img {
 }
 
 #projects {
-    background-color: #f1f1f1;
+    background-color:#fcf3dc;
     padding: 4em;
+
+    h3 {
+        color: #de4623;
+        font-size: 2.5rem
+    }
+
+    p, small {
+        color: #17171d;
+    }
 }
 
 
@@ -176,7 +186,7 @@ img {
         padding: 5px;
         margin: 2px;
         border-radius: 10px;
-        background-color: rgb(90, 233, 233);
+        background-color:#EDB518;
         height: fit-content;
 
         i {
@@ -195,7 +205,7 @@ img {
     max-width: 100%;
     height: 60vh;
     padding: 0 2rem;
-    background-color:#dddddd;
+    background-color:#17171d;
   }
   
   .contact-section-header > h2 {
