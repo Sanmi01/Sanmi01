@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
-$first-color: #124d8b;
-$second-color: #FFE2D2;
+$first-color: #c1c8e2;
+$second-color: #af1409;
 $third-color: #d8c9c9;
-$fourth-color: rgb(181, 227, 245);
+$fourth-color: #f1f1f1;
 
 * {
     margin: 0;
@@ -25,14 +25,17 @@ a {
 }
 
 img {
-    width: 100%;
+    max-width: 100%;
 }
 
-header {
+nav {
     display: flex;
     justify-content: space-between;
     background-color: $first-color;
-    padding: 2em;
+    padding: 1.5em !important;
+    nav {
+        width: 100%;
+    }
 
     .logo {
         font-weight: bold;
@@ -63,7 +66,7 @@ main {
      padding: 4em;
 
      .intro {
-         width: 70%;
+         max-width: 70%;
         margin: 0px auto;
         display: flex;
         justify-content: center;
@@ -79,7 +82,7 @@ main {
 
         img {
             border-radius: 50%;
-            width: 90%;
+           max-width: 90%;
         }
      }
 }
@@ -92,11 +95,11 @@ main {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    width: 100%;
+    max-width: 100%;
     height: 100%;
     
     i {
-        width: 100%;
+        max-width: 100%;
         height: 100%;
         display: flex;
         justify-content: center;
@@ -109,7 +112,7 @@ main {
 
     .icon-name {
     background-color: #2D2E32;
-    width: 100%;
+    max-width: 100%;
     border-radius: 0 0 7px 7px;
     z-index: -1;
     box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2);
@@ -122,7 +125,7 @@ main {
     li {
         list-style: none;
         position: relative;
-    width: 6rem;
+    max-width: 6rem;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 10px 2px;
     margin: 2.3rem 1.5rem;
     
@@ -130,7 +133,7 @@ main {
 }
 
 img {
-    width: 100%;				/* width of image (px or % or auto) */
+    max-width: 100%;				/* width of image (px or % or auto) */
     height: 450px;
     border-radius: 15px;
 }
@@ -140,14 +143,13 @@ img {
 }
 
 #projects {
-    background-color: #F0FFF0;
+    background-color: #f1f1f1;
     padding: 4em;
 }
 
 
 .project {
-    width: 65%;
-    margin: 25px;
+    max-width: 65%;
 }
 
 .right-project {
@@ -189,7 +191,7 @@ img {
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 100%;
+    max-width: 100%;
     height: 80vh;
     padding: 0 2rem;
     background-color:#dddddd;
@@ -241,7 +243,7 @@ img {
     
     }
     .project {
-    width: 100%;
+    max-width: 100%;
     margin-right: 0;
 }
 }
