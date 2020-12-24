@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
 $first-color: #141414;;
-$second-color: #ffffff;
+$second-color: #eeeeee;
 $third-color: #d8c9c9;
 $fourth-color: #17171d;;
 
@@ -12,6 +12,7 @@ $fourth-color: #17171d;;
 
 body {
     font-family: 'Poppins', arial;
+    
 }
 
 ul {
@@ -72,7 +73,7 @@ nav {
 
 main {
     background-color: $fourth-color;
-    color: white;
+    color: #eeeeee;
 }
 
 #home {
@@ -145,7 +146,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: #eeeeee;
     }
 
     li {
@@ -184,14 +185,14 @@ img {
 
 
 .project {
-    max-width: 65%;
+    width: 75vh;
     margin: 15px 15px;
 }
 
 .right-project {
     position: relative;
     text-align: end;
-    margin-left: 25%;
+    margin: auto 0 auto auto;
 
 }
 
@@ -212,7 +213,7 @@ img {
         margin: 2px;
         border-radius: 10px;
         background-color:#50b750;
-        color: white;
+        color: #eeeeee;
         height: fit-content;
 
         i {
@@ -235,7 +236,7 @@ img {
   }
 
   .whatsapp {
-      color: white;
+      color: #eeeeee;
       font-size: 1.4rem;
   }
 
@@ -249,7 +250,7 @@ img {
   }
 
   .contact-details {
-    color: white !important;
+    color: #eeeeee !important;
     font-size: 1.5rem !important;
     text-shadow: 2px 2px 1px #1f1f1f;
     transition: transform 0.3s ease-out;
