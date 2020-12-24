@@ -276,6 +276,11 @@ img {
         display: grid;
         grid-template-columns: 100%;
        padding: 1em;
+
+       .intro {
+           max-width: 100%;
+           font-size: 1rem;
+       }
     }
 
     .right-project {
@@ -289,6 +294,14 @@ img {
     margin-right: 0;
 }
 }
+
+.projects-display {
+    display: grid;
+    place-content: center;
+    grid-template-columns: 100%;
+    grid-template-rows: max-content;
+}
+
 
 a:hover {
     color: #50b750;
