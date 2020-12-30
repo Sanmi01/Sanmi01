@@ -33,26 +33,31 @@ nav {
     display: flex;
     justify-content: space-between;
     background-color: $first-color;
-    padding: 1.5em !important;
     nav {
         width: 100%;
     }
 
     .logo {
         font-weight: bold;
+        vertical-align: middle;
+    }
+
+    .collapse {
+        vertical-align: middle;
     }
 
         ul {
             display: flex;
 
             li {
-                padding-right: 20px;
+                margin-right: 20px;
             }
 
             a {
                 display: block;
                 padding: 0 1em;
             }
+
         }
 
     a {
@@ -196,6 +201,10 @@ img {
 
 }
 
+.project-description2 {
+    max-width: 100vw;
+}
+
 .project-description2 > div {
     display: flex;
     flex-direction: row;
@@ -293,6 +302,11 @@ img {
     max-width: 100%;
     margin-right: 0;
 }
+
+    #projects {
+        padding: 1.5rem;
+        margin: 1.5rem;
+    }
 }
 
 .projects-display {
