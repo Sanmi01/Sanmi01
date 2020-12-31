@@ -10,6 +10,10 @@ $fourth-color: #17171d;;
     box-sizing: border-box;
 }
 
+html {
+    font-size: 12px;
+}
+
 body {
     font-family: 'Poppins', arial;
     
@@ -97,7 +101,7 @@ main {
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 1.3rem;
+        font-size: 1.1rem;
      }
 
      .intro-img {
@@ -212,10 +216,12 @@ img {
 
     ul:nth-child(2) {
         display: block;
+        align-items: flex-end;
     }
     ul {
         display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 
     li {
         padding: 5px;
@@ -224,6 +230,7 @@ img {
         background-color:#50b750;
         color: #eeeeee;
         height: fit-content;
+        width: max-content;
 
         i {
             padding: 0 2px;
@@ -288,7 +295,6 @@ img {
 
        .intro {
            max-width: 100%;
-           font-size: 1rem;
        }
     }
 
@@ -305,7 +311,6 @@ img {
 
     #projects {
         padding: 1.5rem;
-        margin: 1.5rem;
     }
 }
 
