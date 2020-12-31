@@ -39,6 +39,7 @@ nav {
     background-color: $first-color;
     nav {
         width: 100%;
+        font-size: 1.2rem;
     }
 
     .logo {
@@ -55,6 +56,8 @@ nav {
 
             li {
                 margin-right: 20px;
+                font-size: 1.3rem;
+                text-align: center;
             }
 
             a {
@@ -71,7 +74,7 @@ nav {
 
 
             span{
-                font-size: 2.5rem;
+                font-size: 3rem;
                 color: #50b750;
             }
 
@@ -101,7 +104,7 @@ main {
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 1.1rem;
+        font-size: 1.3rem;
      }
 
      .intro-img {
@@ -125,6 +128,10 @@ h2 {
 
 #skills {
     text-align: center;
+
+   p {
+    font-size: 1.2rem;
+   }
 }
 
 .skillsbox {
@@ -183,6 +190,7 @@ img {
 #projects {
     background-color: #141414;
     padding: 4em;
+    font-size: 1.2rem;
 
     h3 {
         color: #50b750;
@@ -257,10 +265,6 @@ img {
     background-color:#17171d;
   }
 
-  .whatsapp {
-      color: #eeeeee;
-      font-size: 1.4rem;
-  }
 
   .contact-section-header > h2 {
     font-size: 3rem !important;
@@ -287,7 +291,7 @@ img {
     #home {
         display: grid;
         grid-template-columns: 100%;
-       padding: 1em;
+       padding: 3em;
 
        .intro {
            max-width: 100%;
@@ -306,7 +310,7 @@ img {
 }
 
     #projects {
-        padding: 1.5rem;
+        padding: 2.5rem;
     }
 }
 
