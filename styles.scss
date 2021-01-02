@@ -272,22 +272,42 @@ img {
 }
 
 .contact-section {
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     max-width: 100%;
-    height: 60vh;
+    height: max-content;
     padding: 0 2rem;
     background-color:#17171d;
+    padding-bottom: 2rem;
 }
+
+
 
 .form-fill {
     font-size: 1.5rem;
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: 10rem 30rem;
+    display: flex;
+    flex-direction: column;
+
+    .form-section label {
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+    }
+
+    button {
+        background-color: #060607;
+    color: #fff;
+    border: none;
+    padding: .9rem;
+    }
+
+    button:hover {
+        background-color: #60606d;
+    }
 }
 
   .contact-section-header > h2 {
