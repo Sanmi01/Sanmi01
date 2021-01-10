@@ -343,6 +343,15 @@ img {
     transition: transform 0.3s ease-out;
   }
 
+  .contact-links {
+      display: grid;
+
+
+      i {
+        font-size: 2rem;
+      }
+  }
+
   .contact-links a:hover {
     color: #50b750 !important;
   }
