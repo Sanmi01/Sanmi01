@@ -346,7 +346,9 @@ img {
   .contact-links {
       display: grid;
 
-
+        div {
+            width: 100%;
+        }
       i {
         font-size: 2rem;
       }
