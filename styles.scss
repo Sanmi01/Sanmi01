@@ -69,7 +69,7 @@ nav {
 
     a {
         color: $second-color;
-        transition: 0.35s;
+        transition: 0.25s;
 
         span {
 
@@ -85,7 +85,7 @@ nav {
     a:hover {
         color: #50b750;
         font-size: 1.5rem;
-        transition: 0.35s;
+        transition: 0.25s;
     }
 }
 
@@ -347,7 +347,7 @@ img {
     color: #eeeeee !important;
     font-size: 1.5rem !important;
     text-shadow: 2px 2px 1px #1f1f1f;
-    transition: transform 0.35s ease-out;
+    transition: transform 0.25s ease-out;
   }
 
   .contact-links {
@@ -358,6 +358,7 @@ img {
         }
       i {
         font-size: 2rem;
+        transition: 0.25s;
       }
   }
 
