@@ -11,7 +11,7 @@ $fourth-color: #17171d;;
 }
 
 html {
-    font-size: 12px;
+    font-size: 13px;
 }
 
 body {
@@ -49,6 +49,8 @@ nav {
 
     .collapse {
         vertical-align: middle;
+        margin-top: auto;
+        margin-bottom: auto;
     }
 
         ul {
@@ -84,7 +86,6 @@ nav {
 
     a:hover {
         color: #50b750;
-        font-size: 1.25rem;
         transition: 0.25s;
     }
 }
@@ -327,6 +328,7 @@ img {
     border: none;
     padding: .9rem;
     margin-top: 1rem;
+    font-family: 'Poppins', arial;
     }
 
     button:hover {
@@ -362,9 +364,9 @@ img {
       }
   }
 
+  
   .contact-links a:hover {
     color: #50b750 !important;
-    font-size: 2rem !important;
     transition: 0.25s;
 
     i {
@@ -383,6 +385,28 @@ img {
        .intro {
            max-width: 100%;
        }
+    }
+
+    nav {
+        display:block;
+        vertical-align: middle;
+        display: grid;
+        place-items: center;
+        justify-content: stretch;
+
+        ul {
+            justify-content: center;
+
+            li {
+                margin-right: 10px;
+                font-size: 1.5rem;
+                text-align: center;
+            }
+        }
+    }
+
+    .collapse {
+        margin:auto;
     }
 
     .right-project {
