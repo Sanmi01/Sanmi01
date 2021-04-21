@@ -439,6 +439,7 @@ img {
   font-size: 2rem;
   -webkit-transition: 0.25s;
   transition: 0.25s;
+  padding: 1rem;
 }
 
 .contact-links a:hover {
