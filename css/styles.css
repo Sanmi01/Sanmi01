@@ -246,6 +246,34 @@ img {
   list-style: circle;
 }
 
+#intern {
+  text-align: center;
+  margin: 2em;
+}
+
+.internships {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  margin: auto;
+}
+
+.internships a {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.internships img {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
 #projects .first {
   text-align: center;
   padding-top: 2.5rem;
@@ -550,6 +578,13 @@ img {
         grid-template-columns: 100% !important;
     gap: 50px;
     font-size: 1.35rem;
+  }
+  .internships {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    margin: auto;
   }
 }
 

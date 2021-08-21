@@ -219,6 +219,26 @@ img {
     }
 }
 
+#intern {
+    text-align: center;
+    margin: 2em;
+}
+
+.internships {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: auto;
+    
+    a {
+        width: fit-content;
+        height: fit-content;
+    }
+
+    img {
+        width:fit-content;
+    }
+}
+
 #projects .first {
     text-align: center;
     padding-top: 2.5rem;
@@ -469,6 +489,13 @@ img {
         grid-template-columns: 100% !important;
         gap: 50px;
         font-size: 1.35rem;
+    }
+
+    .internships {
+        display: grid;
+        grid-template-columns: auto;
+        margin: auto;
+        
     }
 }
 
