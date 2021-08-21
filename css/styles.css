@@ -216,6 +216,36 @@ img {
   border-radius: 15px;
 }
 
+#work-experience {
+  padding: 3em;
+}
+
+#work-experience h2 {
+  text-align: center;
+}
+
+#work-experience .experiences {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  gap: 50px;
+  font-size: 1.4rem;
+  margin: 0px auto;
+}
+
+#work-experience .experiences p {
+  margin: 0.5rem;
+}
+
+#work-experience .experiences h3 {
+  display: inline;
+}
+
+#work-experience .experiences li {
+  list-style: circle;
+}
+
 #projects .first {
   text-align: center;
   padding-top: 2.5rem;
@@ -506,6 +536,20 @@ img {
         grid-template-rows: max-content;
     max-width: 50rem;
     margin: 0 auto;
+  }
+}
+
+@media (max-width: 650px) {
+  nav ul li {
+    font-size: 1.35rem;
+  }
+  .experiences {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 100% !important;
+        grid-template-columns: 100% !important;
+    gap: 50px;
+    font-size: 1.35rem;
   }
 }
 
