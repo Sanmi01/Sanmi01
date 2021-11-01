@@ -90,6 +90,14 @@ nav {
     }
 }
 
+.black-bg {
+    background-color: $first-color;
+}
+
+.grey-bg {
+    background-color: $fourth-color
+}
+
 
 main {
     background-color: $fourth-color;
@@ -193,8 +201,6 @@ img {
 
 #work-experience {
     padding: 3em;
-
-    background-color: $first-color;
 
     h2 {
         text-align: center;
@@ -379,10 +385,14 @@ img {
     padding: .9rem;
     margin-top: 1rem;
     font-family: 'Poppins', arial;
+    border-radius: 10px;
+    transition: 1.25s;
     }
 
     button:hover {
         background-color: #60606d;
+        transition: 1.25s;
+        // color: black;
     }
 }
 

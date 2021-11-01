@@ -88,6 +88,14 @@ nav a:hover {
   transition: 0.25s;
 }
 
+.black-bg {
+  background-color: #141414;
+}
+
+.grey-bg {
+  background-color: #17171d;
+}
+
 main {
   background-color: #17171d;
   color: #eeeeee;
@@ -218,7 +226,6 @@ img {
 
 #work-experience {
   padding: 3em;
-  background-color: #141414;
 }
 
 #work-experience h2 {
@@ -460,10 +467,15 @@ img {
   padding: .9rem;
   margin-top: 1rem;
   font-family: 'Poppins', arial;
+  border-radius: 10px;
+  -webkit-transition: 1.25s;
+  transition: 1.25s;
 }
 
 .form-fill button:hover {
   background-color: #60606d;
+  -webkit-transition: 1.25s;
+  transition: 1.25s;
 }
 
 .contact-section-header > h2 {
