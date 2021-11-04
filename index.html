@@ -6,29 +6,34 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="google-site-verification" content="NXEyiIHY4WYXHS7K52Gx4PuCwnPo6fDRpfhSy5i5iU0" />
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
     <link rel='stylesheet' href="./css/styles.css">
   </head>
   <body>
-        <nav>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark py-3" id="mainNav">
+          <div class="container-fluid px-4 px-lg-5">
             <a class="logo" href="./index.html"><span><span>Oluwasanmi</span> Awelewa</span></a>
-          <div class="collapse">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                  <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#skills">Skills</a>
-            </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#projects">Projects</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#contact">Contact Me</a>
-              </li>
-            </ul>
+              <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+              <div class="collapse navbar-collapse" id="navbarResponsive">
+                  <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#skills">Skills</a>
+                  </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Me</a>
+                    </li>
+                  </ul>
+              </div>
           </div>
-        </nav>
+      </nav>
+      </header>
     <main>
         <section id="home">
             <div class="intro">
@@ -210,6 +215,28 @@
                         </div>
                     </div>
                 </div>
+                <div class="project left-project">
+                    <div class="project-description">
+                        <h3 class="project-title">Task Tracker</h3>
+                        <p class="project-about">Task Tracker built with React</p>
+                    </div>
+                    <div>
+                        <img src="./images/task-tracker.PNG">
+                    </div>
+                    <div class="project-description2">
+                        <div>
+                            <ul>
+                                <li>REACT</li>
+                                <li>CSS</li>
+                                <li>JAVASCRIPT</li>
+                            </ul>
+                            <ul>
+                                <a href="https://github.com/Sanmi01/calculator" target="_blank"><li><i class="fas fa-code-branch"></i>See Code</li></a>
+                                <a href="https://sanmi01.github.io/calculator" target="_blank"><li><i class="fas fa-eye"></i>Live Preview</li></a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
             
         </section>
@@ -265,6 +292,7 @@
 
 
       <script src="./js/script.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
       <script src="https://kit.fontawesome.com/b34638e3ce.js" crossorigin="anonymous"></script>
    </body>
 </html>

@@ -72,7 +72,7 @@ nav ul a {
 }
 
 nav a {
-  color: #eeeeee;
+  color: #eeeeee !important;
   -webkit-transition: 0.25s;
   transition: 0.25s;
 }
@@ -83,7 +83,7 @@ nav a span span {
 }
 
 nav a:hover {
-  color: #50b750;
+  color: #50b750 !important;
   -webkit-transition: 0.25s;
   transition: 0.25s;
 }

@@ -70,7 +70,7 @@ nav {
         }
 
     a {
-        color: $second-color;
+        color: $second-color !important;
         transition: 0.25s;
 
         span {
@@ -85,7 +85,7 @@ nav {
     }
 
     a:hover {
-        color: #50b750;
+        color: #50b750 !important;
         transition: 0.25s;
     }
 }
